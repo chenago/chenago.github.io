@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://chenago.github.io/sitemap.xml
