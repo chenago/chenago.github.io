@@ -30,9 +30,22 @@
   }
 
   .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
     font-size: 22px;
     font-weight: bold;
     color: #EF534F;
+  }
+
+  .logo-icon {
+    width: 36px;
+    height: 36px;
+    margin-right: 8px;
+  }
+
+  .logo:hover {
+    opacity: 0.85;
   }
 
   /* 主导航容器 - 改为相对定位以承载子菜单 */
@@ -614,24 +627,6 @@ main tr:nth-child(even) {
 .faq-item.active .faq-question::after {
   transform: rotate(-180deg);
   color: #EF534F;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-  font-size: 1.4rem;
-  text-decoration: none;
-  color: #333;
-}
-
-.logo-icon {
-  width: 28px;
-  height: 28px;
-  margin-right: 8px;
-}
-.logo:hover {
-  opacity: 0.85;
 }
 
 /* ====== 优惠购买组件样式 ====== */
